@@ -390,7 +390,7 @@ main .callback__left {
 }
 @media (min-width: 740px) {
   main .callback__left {
-    background-image: url("img/callback-left.jpg");
+    background-image: url("../../img/callback-left.jpg");
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-position-y: 70%;
@@ -399,7 +399,7 @@ main .callback__left {
   }
 }
 main .callback__right {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("img/callback-right.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843)), url("../../img/callback-right.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
