@@ -1,0 +1,16 @@
+%link-styles {
+    transition: color var(--transition-duration) background-color var(--transition-duration);
+
+    &:focus-visible {
+        outline: none;
+        background-color: var(--base-color);
+    }
+
+    &:hover {
+        color: var(--base-color-hover);
+    }
+
+    &:active {
+        color: var(--base-color-active);
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "scripts": {
+    "compile": "sass scss/main.scss -w --no-source-map css/style.css"
+  },
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}

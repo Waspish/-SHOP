@@ -1,0 +1,60 @@
+.header {
+    background-color: var(--black-color);
+
+    &__container {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        @media (min-width:740px) {
+            padding: 0 var(--base-padding);
+            flex-direction: row;
+        }
+    }
+
+    &__logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 23px;
+        background-color: var(--base-color);
+        outline: none;
+        transition: opacity var(--transition-duration) background-color var(--transition-duration);
+
+        &:focus-visible {
+            opacity: 0;
+        }
+
+        &:hover {
+            background-color: var(--base-color-hover);
+        }
+
+        &:active {
+            background-color: var(--base-color-active);
+        }
+
+        @media (min-width:740px) {
+            width: initial;
+            display: block;
+        }
+    }
+
+    &__menu {
+        padding: 20px 0;
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+
+        @media (min-width:740px) {
+            overflow: initial;
+            width: initial;
+        }
+
+        &-list {
+            padding: 0 var(--base-padding);
+            width: fit-content;
+        }
+    }
+}
