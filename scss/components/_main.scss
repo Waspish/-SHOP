@@ -62,7 +62,7 @@ main {
             display: flex;
 
             @media (min-width:740px) {
-                background-image: url("/Waspish/-SHOP/img/callback-left.jpg");
+                background-image: url("img/callback-left.jpg");
                 background-repeat: no-repeat;
                 background-position-x: 100%;
                 background-position-y: 70%;
@@ -72,7 +72,7 @@ main {
         }
 
         &__right {
-            background-image: linear-gradient(#00000080, #00000080), url("/Waspish/-SHOP/img/callback-right.jpg");
+            background-image: linear-gradient(#00000080, #00000080), url("img/callback-right.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
